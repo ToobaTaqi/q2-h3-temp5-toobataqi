@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 // import CartItem from "../../../components/cartPage/CartItem";
 // import CheckoutForm from "../../../components/cartPage/Checkout";
-import CartItem from "../../components/cartPage/CartItem";
+// import CartItem from "../../components/cartPage/CartItem";
 import Link from "next/link";
 import Image from "next/image";
 
