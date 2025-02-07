@@ -9,8 +9,7 @@ import NotificationBar from "../components/globalComponents/NotificationBar";
 import Footer from "../components/globalComponents/Footer";
 import NavBarMobile from "../components/globalComponents/NavBarMobile";
 import NavBarDesktop from "../components/globalComponents/NavBarDesktop";
-import Navbar from "@/components/globalComponents/Navbar";
-
+// import Navbar from "@/components/globalComponents/Navbar";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -43,19 +42,20 @@ export default async function RootLayout({
     <html lang={locale}>
       {/* <CartProvider> */}
       {/* <counterContext.Provider value={}> */}
-        <body className="max-w-[3840px] mx-auto  text-[#252B42] ]">
-          {/* <NextIntlClientProvider messages={messages}> */}
-          <div>
-            <header>
-       
-              <Navbar />
-            </header>
-            {children}
-            <Footer />
-          </div>
-          {/* </NextIntlClientProvider> */}
-        </body>
-        {/* </counterContext.Provider> */}
+      <body className="max-w-[3840px] mx-auto  text-[#252B42] ]">
+        {/* <NextIntlClientProvider messages={messages}> */}
+        <div>
+          <header>
+            <NavBarDesktop />
+            <NavBarMobile />
+            {/* <Navbar /> */}
+          </header>
+          {children}
+          <Footer />
+        </div>
+        {/* </NextIntlClientProvider> */}
+      </body>
+      {/* </counterContext.Provider> */}
       {/* </CartProvider> */}
     </html>
   );
