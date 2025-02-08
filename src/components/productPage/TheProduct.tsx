@@ -26,7 +26,6 @@ export default function TheProduct() {
     tags: string[];
   };
 
-  
   const [product, setProduct] = useState<ProductType>();
   // { params }: { params: { id: string } }
 

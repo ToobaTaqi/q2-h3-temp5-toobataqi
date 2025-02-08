@@ -39,10 +39,10 @@ export default async function RootLayout({
   // const messages = await getMessages();
 
   return (
-    <html lang={locale}>
+    <html >
       {/* <CartProvider> */}
       {/* <counterContext.Provider value={}> */}
-      <body className="max-w-[3840px] mx-auto  text-[#252B42] ]">
+      <body className="max-w-[3840px] mx-auto bg-white  text-[#252B42] ]">
         {/* <NextIntlClientProvider messages={messages}> */}
         <div>
           <header>

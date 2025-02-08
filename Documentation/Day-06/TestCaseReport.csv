@@ -1,0 +1,7 @@
+Test Case ID,Test Description,Steps,Expected,Actual,Status,Assigned,Remarke
+TC001,Verify Product Page,Open product page /product/:id,Page displays product details,Displayed Correctly,Passed,Tooba,Success
+TC002,Add to cart,"Click ""Add to cart"" button on both Product Cards and product page",The product added to cart,Added,Passed,Tooba,Success
+TC003,Price Display,Open product page /product/:id or directly see on product cards,Price and discount price visible correctly,Visible,Passed,Tooba,Success
+TC004,Remove from Cart,"go to cart page /cart and press ""delete"" button",Cart shows 0 items,0 items,Passed,Tooba,Success
+TC005,Add Multiple to cart,Add 10 products with multiple quantity,10 items or more,10 or more items,Passed,Tooba,Success
+TC006,Checkout Process,Proceed to checkout,Checkout works smoothly,Completed,Passed,Tooba,Success
