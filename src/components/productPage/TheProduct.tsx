@@ -3,7 +3,6 @@ import React, { useEffect, useState, useContext } from "react";
 import { icons, Products } from "../../assets";
 import Image from "next/image";
 import { useParams } from "next/navigation";
-import { counterContext } from "@/context/context";
 
 export default function TheProduct() {
   const [count, setCount] = useState(1); 
