@@ -10,7 +10,7 @@ export default function Hero() {
         alt=""
         width={100}
         height={100}
-        className="w-full h-full object-cover lg:object-cover min-w-[416px] min-h-[753px]"
+        className="w-full h-full object-cover lg:object-cover  min-h-[753px]"
       />
 
       <div className="absolute top-40 lg:top-5 left-20 lg:left-48 flex flex-col justify-center items-center lg:items-start h-[500px] lg:h-[716px] w-[70vw] lg:w-[600px] gap-[35px] text-white text-center lg:text-left mx-auto ">

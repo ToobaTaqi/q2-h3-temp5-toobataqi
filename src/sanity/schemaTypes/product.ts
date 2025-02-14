@@ -45,18 +45,18 @@ export const product = defineType({
       type: "boolean",
       title: "New Badge",
     }),
-    defineField({
-      name: "category",
-      type: "reference",
-      title: "Category",
-      to: {
-        type: "category",
-      },
-    }),
-    defineField({
-      name: "bestseller",
-      type: "boolean",
-      title: "Best Seller",
-    }),
+    // defineField({
+    //   name: "category",
+    //   type: "reference",
+    //   title: "Category",
+    //   to: {
+    //     type: "category",
+    //   },
+    // }),
+    // defineField({
+    //   name: "bestseller",
+    //   type: "boolean",
+    //   title: "Best Seller",
+    // }),
   ],
 });
